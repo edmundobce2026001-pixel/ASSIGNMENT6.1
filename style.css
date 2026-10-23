@@ -1,0 +1,32 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background-color: #0043a8;
+}
+
+.box {
+    background-color: #ffffff6f;
+    border: 3px solid #0056b3;
+    margin-bottom: 20px;
+}
+
+
+.box-content-box {
+    box-sizing: content-box;
+    width: 300px;
+    padding: 20px; 
+}
+
+.box-border-box {
+    box-sizing: border-box;
+    width: 300px;
+    padding: 20px; 
+}
+
+.box-custom {
+    box-sizing: border-box;
+    width: 350px;
+    padding: 30px;
+    margin: 25px; 
+    border: 5px dashed #333333; 
+}
